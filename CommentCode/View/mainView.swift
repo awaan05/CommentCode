@@ -20,11 +20,11 @@ struct mainView: View {
                 ZStack {
                     TextEditor(text: $viewModel.codeInput)
                         .cornerRadius(8)
-                        .padding(.top, 10)
+                        .padding(.top, 5)
                         .padding(.bottom, 2)
                         .padding(.leading, 10)
                         .padding(.trailing, 3)
-                        .frame(height: 380)
+                        .frame(height: 520)
                     Text("Paste Your Code Here")
                         .font(.largeTitle)
                         .fontWeight(.bold)
@@ -34,15 +34,15 @@ struct mainView: View {
                 Image("arr")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 40, height:100)
+                    .frame(width: 50, height:100)
                 ZStack {
                     TextEditor(text: $viewModel.responseOutput )
                         .cornerRadius(8)
-                        .padding(.top, 10)
+                        .padding(.top, 5)
                         .padding(.bottom, 2)
                         .padding(.trailing, 10)
                         .padding(.leading, 3)
-                        .frame(height: 380)
+                        .frame(height: 520)
                     Text("Result")
                         .font(.largeTitle)
                         .fontWeight(.bold)
@@ -68,7 +68,7 @@ struct mainView: View {
                     HStack {
                         Button(action: viewModel.generateComments) {
                             Text("Generate Comments")
-                                .frame(width: .infinity)
+                                //.frame(width: .infinity)
                                 .padding(.vertical, 4)
                                 .padding(.horizontal, 8)
                                 .background(Color.blue)
@@ -80,7 +80,7 @@ struct mainView: View {
                         
                         Button(action: viewModel.explainCode) {
                             Text("Explain this Code")
-                                .frame(width: .infinity)
+                                //.frame(width: .infinity)
                                 .padding(.vertical, 4)
                                 .padding(.horizontal, 8)
                                 .background(Color.blue)
@@ -91,7 +91,7 @@ struct mainView: View {
                         
                         Button(action: viewModel.reset) {
                             Text("Clear all")
-                                .frame(width: .infinity)
+                                //.frame(width: .infinity)
                                 .padding(.vertical, 4)
                                 .padding(.horizontal, 8)
                                 .background(Color.red)
