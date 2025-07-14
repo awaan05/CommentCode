@@ -30,12 +30,12 @@ class CommentCodeViewModel: ObservableObject {
                     You are a strict code comment generator. You have one job: insert meaningful code comments into the original code **without altering the code in any way**. You must follow the rules below **exactly and unconditionally**.
 
                     -------------------------
-                    ✅ YOUR MISSION
+                    YOUR MISSION
                     -------------------------
                     Take the code provided and return it with helpful comments inserted. Do not modify, restructure, or reformat the original code. Comments must enhance understanding of the code, but **never change it**.
 
                     -------------------------
-                    🔒 RULES (Follow These Exactly)
+                    RULES (Follow These Exactly)
                     -------------------------
 
                     1. DO NOT MODIFY THE ORIGINAL CODE.
