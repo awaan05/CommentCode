@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		12299F7A2DFF107D00BC473F /* CommentCode */ = {
+		1215B4262E25A80000836D0D /* CommentCode */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CommentCode;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 		12299F6F2DFF107D00BC473F = {
 			isa = PBXGroup;
 			children = (
-				12299F7A2DFF107D00BC473F /* CommentCode */,
+				1215B4262E25A80000836D0D /* CommentCode */,
 				12299F792DFF107D00BC473F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				12299F7A2DFF107D00BC473F /* CommentCode */,
+				1215B4262E25A80000836D0D /* CommentCode */,
 			);
 			name = CommentCode;
 			packageProductDependencies = (
